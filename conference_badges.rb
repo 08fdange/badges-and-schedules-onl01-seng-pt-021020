@@ -19,10 +19,11 @@ def assign_rooms(names)
 end
 
 def printer(attendees)
-  i=0
   badges.each do |badge|
-    puts badge, room_assignments[i]
-    i+=1
+    puts badge
+  end
+  room_assignments.each do |room_assignment|
+    puts room_assignment
   end
 end
     
