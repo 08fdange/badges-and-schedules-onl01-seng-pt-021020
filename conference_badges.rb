@@ -21,7 +21,7 @@ end
 def printer(attendees)
   i=0
   badges.each do |badge|
-    puts badge, room assignments[i]
+    puts badge, room_assignments[i]
     i+=1
   end
 end
