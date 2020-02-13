@@ -19,7 +19,12 @@ def assign_rooms(names)
 end
 
 def printer(attendees)
-
+  i=0
+  badges.each do |badge|
+    puts badge, room assignments[i]
+    i+=1
+  end
+end
     
     
     
